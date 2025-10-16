@@ -40,3 +40,29 @@
 .create-story-button:hover {
     background-color: darkgrey;
 }
+
+.topimage {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../images/p12.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+
+.topimage h2, .topimage p {
+    text-align: center;
+}
+
+.topimage h2 {
+    font-size: 40px;
+}
+
+.topimage p {
+    font-size: 20px;
+}
