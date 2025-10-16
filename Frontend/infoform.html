@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Story</title>
+    <link rel="stylesheet" href="infoform.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Create Your Travel Story</h2>
+        <form id="storyForm">
+            <input type="hidden" id="editId">
+            <label>Title:</label>
+            <input type="text" id="title" required><br>
+            
+            <label>Location:</label>
+            <input type="text" id="location" required><br>
+
+            <label>Image URL:</label>
+            <input type="text" id="image" placeholder="Paste image link" required><br>
+
+            <label>Your Story:</label>
+            <textarea id="story" required></textarea><br>
+
+            <button type="submit">Save Story</button>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
