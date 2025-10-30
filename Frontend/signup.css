@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.background {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url(images/p9.jpg);
+    background-size: cover;
+    height: 100%;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 85%;
+    padding: 10px 40px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.input-group .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e6004c;
+}
+
+.login-link {
+    margin-top: 20px;
+    color: white;
+}
+
+.login-link a {
+    color: #ff3366;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
